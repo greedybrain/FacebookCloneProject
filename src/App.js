@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import HeaderIfLoggedOut from './Pages/LoginPage/containers/HeaderIfLoggedOut';
 
 function App() {
   return (
     <div className="App">
-      
+      <HeaderIfLoggedOut />
     </div>
   );
 }
